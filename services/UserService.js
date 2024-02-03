@@ -1,9 +1,18 @@
 import UserRepository from "../repository/UserRepository.js";
 import logger from "../config/logger.js";
-// import generateTokens from "../utils/generateToken.js";
 import generateToken from "../utils/generateNormalToken.js";
 
 class UserServices {
+  static instance;
+
+  constructor() {
+    if (UserServices.instance) {
+      return UserServices.instance;
+    }
+
+    UserServices.instance = this;
+  }
+
   // Service method to handle user login
   async userLogin(email, password, res) {
     try {

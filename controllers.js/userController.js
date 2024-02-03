@@ -4,8 +4,7 @@ import UserService from "../services/UserService.js";
 
 const registerUser = async (req, res) => {
   try {
-    const result = await UserService.registerUserWithOTP(req.body);
-
+    const result = await UserService.registerUser(req.body);
     res.status(200).json(result);
   } catch (error) {
     // Handling errors and logging them
@@ -18,6 +17,8 @@ const registerUser = async (req, res) => {
     });
   }
 };
+
+
 
 // Auth user controller and token setter
 // Route: POST /api/users/auth

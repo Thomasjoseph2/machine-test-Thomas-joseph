@@ -6,6 +6,7 @@ import { authUser, getProfile, addAddress ,logout} from "../../controllers.js/us
 import { addAddressValidation,authUserValidation,validate } from "../../middlewares/validationMiddleware.js";
 const router = express.Router();
 
+
 router.post('/auth', authUserValidation, loginBlockCheck, validate, authUser);
 
 router.get('/get-profile', protect, getProfile);
