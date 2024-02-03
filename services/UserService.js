@@ -41,6 +41,7 @@ class UserServices {
       console.log(error);
       logger.error("Error in userLogin:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "User login failed",
       });
       throw new Error("User login failed");
@@ -67,6 +68,7 @@ class UserServices {
       console.log(error);
       logger.error("Error in getUser:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Error in getUser:",
       });
       throw error;
@@ -89,6 +91,7 @@ class UserServices {
       console.log(error);
       logger.error("Error in addAddress:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Failed to add user's address",
       });
       throw new Error("Failed to add user's address");

@@ -13,7 +13,11 @@ const generateToken = (res, userId, userRole) => {
         maxAge: 30 * 24 * 60 * 60 * 1000,
       });
     } catch (error) {
-      logger.error(`jwt creation error: ${error.message}`);
+      logger.error("jwt creation error: ", {
+        message: error.message,
+        stack: error.stack,
+        additionalInfo: "Failed to create jwt",
+      });
       console.log(error);
     }
   };

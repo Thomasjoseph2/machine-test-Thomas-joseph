@@ -17,6 +17,7 @@ class UserRepository {
     } catch (error) {
       logger.error("Error in findByEmail:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Failed to find user by email",
       });
       throw new Error("Failed to find user by email");
@@ -29,6 +30,7 @@ class UserRepository {
     } catch (error) {
       logger.error("Error in findUserByIdForMiddleWare:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Failed to find user by ID for middleware",
       });
       throw new Error("Failed to find user by ID for middleware");
@@ -41,6 +43,7 @@ class UserRepository {
     } catch (error) {
       logger.error("Error in findUserById:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Error in findUserById:",
       });
       throw new Error("Failed to find user by ID");
@@ -53,6 +56,7 @@ class UserRepository {
     } catch (error) {
       logger.error("Error in matchPasswords:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Failed to match passwords",
       });
       throw new Error("Failed to match passwords");
@@ -75,6 +79,7 @@ class UserRepository {
     } catch (error) {
       logger.error("Error in addAddress:", {
         message: error.message,
+        stack: error.stack,
         additionalInfo: "Error in addAddress:",
       });
       throw new Error("Failed to add user's address");

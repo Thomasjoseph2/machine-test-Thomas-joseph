@@ -2,6 +2,23 @@
 import logger from "../config/logger.js";
 import UserService from "../services/UserService.js";
 
+const registerUser = async (req, res) => {
+  try {
+    const result = await UserService.registerUserWithOTP(req.body);
+
+    res.status(200).json(result);
+  } catch (error) {
+    // Handling errors and logging them
+    console.log(error);
+
+    logger.error("Registration error", {
+      message: error.message,
+      stack: error.stack,
+      additionalInfo: "error in auth controller",
+    });
+  }
+};
+
 // Auth user controller and token setter
 // Route: POST /api/users/auth
 // Access: Public
@@ -22,6 +39,7 @@ const authUser = async (req, res) => {
 
     logger.error("Authentication error", {
       message: error.message,
+      stack: error.stack,
       additionalInfo: "error in auth controller",
     });
 
@@ -43,6 +61,7 @@ const getProfile = async (req, res) => {
     console.log(error);
     logger.error("Get user profile error", {
       message: error.message,
+      stack: error.stack,
       additionalInfo: "get profile controller",
     });
 
@@ -74,6 +93,7 @@ const addAddress = async (req, res) => {
     // Handling errors and logging them
     logger.error("Error in addAddress", {
       message: error.message,
+      stack: error.stack,
       additionalInfo: "error occured while adding address",
     });
 
@@ -91,6 +111,7 @@ const logout = async (req, res) => {
     console.log(error);
     logger.error("Error in logout", {
       message: error.message,
+      stack: error.stack,
       additionalInfo: "error occured during logout",
     });
   }
