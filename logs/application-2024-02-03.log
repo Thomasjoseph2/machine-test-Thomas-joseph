@@ -1,0 +1,119 @@
+{"level":"error","message":"Authentication error: UserServices is not defined","timestamp":"2024-02-03 12:08:57"}
+{"level":"error","message":"Authentication error: UserServices is not defined","timestamp":"2024-02-03 12:09:44"}
+{"level":"error","message":"Authentication error: UserServices is not defined","timestamp":"2024-02-03 12:22:54"}
+{"level":"error","message":"Error in userLogin: Cannot read properties of null (reading 'verified')","timestamp":"2024-02-03 12:25:21"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 12:25:21"}
+{"level":"error","message":"Error in userLogin: Cannot read properties of null (reading 'verified')","timestamp":"2024-02-03 12:25:46"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 12:25:46"}
+{"level":"error","message":"Error in userLogin: Expected a string but received a undefined","timestamp":"2024-02-03 12:33:36"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 12:33:36"}
+{"level":"error","message":"Error in matchPasswords: user.matchPasswords is not a function","timestamp":"2024-02-03 12:43:46"}
+{"level":"error","message":"Error in userLogin: Failed to match passwords","timestamp":"2024-02-03 12:43:46"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 12:43:46"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:06:23"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:06:23"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:08:22"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:08:22"}
+{"level":"error","message":"Error in userLogin: ACCESS_TOKEN_SECRET is not defined","timestamp":"2024-02-03 13:09:08"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:09:08"}
+{"level":"error","message":"Error in userLogin: ACCESS_TOKEN_SECRET is not defined","timestamp":"2024-02-03 13:09:49"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:09:49"}
+{"level":"error","message":"Error in userLogin: ACCESS_TOKEN_SECRET is not defined","timestamp":"2024-02-03 13:10:45"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:10:45"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:17:59"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:17:59"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:18:12"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:18:12"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:18:54"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:18:54"}
+{"level":"error","message":"Error in userLogin: secretOrPrivateKey must have a value","timestamp":"2024-02-03 13:19:25"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 13:19:25"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:43:06"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:43:06"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:43:51"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:43:51"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:44:40"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:44:41"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:45:55"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:45:55"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:46:43"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:46:43"}
+{"level":"error","message":"Error in getUser: Cast to ObjectId failed for value \"{ userId: undefined }\" (type Object) at path \"_id\" for model \"User\"","timestamp":"2024-02-03 13:47:30"}
+{"level":"error","message":"get user profile error : Cast to ObjectId failed for value \"{ userId: undefined }\" (type Object) at path \"_id\" for model \"User\"","timestamp":"2024-02-03 13:47:30"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:48:51"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:48:51"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:49:05"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:49:05"}
+{"level":"error","message":"get user profile error : UserService.getUser is not a function","timestamp":"2024-02-03 13:49:40"}
+{"level":"error","message":"Error in getUser: user not found","timestamp":"2024-02-03 13:50:07"}
+{"level":"error","message":"get user profile error : user not found","timestamp":"2024-02-03 13:50:07"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 14:11:40"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 14:15:50"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:37:43"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:48:40"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:48:41"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:48:43"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:48:44"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:09"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:10"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:11"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:13"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:14"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:16"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:18"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:21"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:56"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:58"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:49:59"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:50:00"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:50:01"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:22"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:23"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:25"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:28"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:30"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:32"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:34"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:37"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:39"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:42"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:53:47"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:05"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:08"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:17"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:19"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:20"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:21"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:54:22"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:55:24"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:55:27"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:55:29"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 15:55:31"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 16:08:00"}
+{"level":"info","message":"Address added for user with ID: 65bde4530014d502e1b3d665","timestamp":"2024-02-03 16:09:21"}
+{"level":"error","message":"Error in userLogin: logger is not defined","timestamp":"2024-02-03 16:32:05"}
+{"level":"error","message":"Authentication error: User login failed","timestamp":"2024-02-03 16:32:05"}
+2024-02-03 17:15:01 error: Error in addAddress: userId is not defined
+Additional Info: 
+2024-02-03 17:17:48 error: userId is not defined
+Additional Info: error occured while adding address
+2024-02-03 17:21:20 error: UserService.getUse is not a function
+Additional Info: get profile controller
+2024-02-03 17:25:46 error: use is not defined
+Additional Info: Failed to match passwords
+2024-02-03 17:25:46 error: Error in userLogin: Failed to match passwords
+Additional Info: 
+2024-02-03 17:25:46 error: User login failed
+Additional Info: error in auth controller
+2024-02-03 17:53:53 error: User not found
+Additional Info: Error in getUser:
+2024-02-03 17:53:53 error: User not found
+Additional Info: get profile controller
+2024-02-03 17:54:36 error: User not found
+Additional Info: Error in getUser:
+2024-02-03 17:54:36 error: User not found
+Additional Info: get profile controller
+2024-02-03 17:54:53 error: User not found
+Additional Info: Error in getUser:
+2024-02-03 17:54:53 error: User not found
+Additional Info: get profile controller
