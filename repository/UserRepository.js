@@ -10,7 +10,9 @@ class UserRepository {
 
     UserRepository.instance = this;
   }
-
+  async createUser(userData) {
+    return await User.create(userData);
+  }
   async findByEmail(email) {
     try {
       return await User.findOne(email);

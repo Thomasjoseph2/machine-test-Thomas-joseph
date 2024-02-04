@@ -1,15 +1,17 @@
-// Importing necessary modules
 import logger from "../config/logger.js";
 import UserService from "../services/UserService.js";
 
+// register user controller
+// Route: POST /api/users/register
+// Access: Public
+
 const registerUser = async (req, res) => {
   try {
-    const result = await UserService.registerUser(req.body);
+    const result = await UserService.registerUser(req.body, res);
     res.status(200).json(result);
   } catch (error) {
     // Handling errors and logging them
-    console.log(error);
-
+    console.log(error, "registration function");
     logger.error("Registration error", {
       message: error.message,
       stack: error.stack,
@@ -17,8 +19,6 @@ const registerUser = async (req, res) => {
     });
   }
 };
-
-
 
 // Auth user controller and token setter
 // Route: POST /api/users/auth
@@ -36,7 +36,7 @@ const authUser = async (req, res) => {
     res.status(result.statusCode).json(result.data);
   } catch (error) {
     // Handling errors and logging them
-    console.log(error);
+    console.log(error, "auth user controller");
 
     logger.error("Authentication error", {
       message: error.message,
@@ -59,7 +59,7 @@ const getProfile = async (req, res) => {
     res.status(user.statusCode).json({ user: user.user });
   } catch (error) {
     // Handling errors and logging them
-    console.log(error);
+    console.log(error, "get profile controller");
     logger.error("Get user profile error", {
       message: error.message,
       stack: error.stack,
@@ -91,6 +91,7 @@ const addAddress = async (req, res) => {
     // Sending the response based on the result
     res.status(result.statusCode).json(result.data);
   } catch (error) {
+    console.log(error, "add address constroller");
     // Handling errors and logging them
     logger.error("Error in addAddress", {
       message: error.message,
@@ -109,7 +110,7 @@ const logout = async (req, res) => {
 
     res.status(200).json({ message: "user logged out" });
   } catch (error) {
-    console.log(error);
+    console.log(error, "logout controller");
     logger.error("Error in logout", {
       message: error.message,
       stack: error.stack,
@@ -119,4 +120,4 @@ const logout = async (req, res) => {
 };
 
 // Exporting the controllers
-export { authUser, getProfile, addAddress, logout };
+export { authUser, getProfile, addAddress, logout, registerUser };

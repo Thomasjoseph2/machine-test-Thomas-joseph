@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +23,9 @@
     "express-validator": "^7.0.1",
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
+    "mon": "^0.0.8",
     "mongoose": "^8.1.1",
+    "node": "^21.6.1",
     "nodemon": "^3.0.3",
     "validator": "^13.11.0",
     "winston": "^3.11.0",
