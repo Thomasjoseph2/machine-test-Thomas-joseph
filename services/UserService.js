@@ -45,7 +45,7 @@ class UserServices {
       }
     } catch (error) {
       // Handle errors and log them
-      console.log(error);
+      console.log(error,'register user service');
       logger.error("Error in registerUser:", {
         message: error.message,
         stack: error.stack,
@@ -81,7 +81,7 @@ class UserServices {
       }
     } catch (error) {
       // Logging and throwing an error for failed user login
-      console.log(error);
+      console.log(error,'user login service');
       logger.error("Error in userLogin:", {
         message: error.message,
         stack: error.stack,
@@ -108,7 +108,7 @@ class UserServices {
       }
     } catch (error) {
       // Logging and throwing an error for failed user retrieval
-      console.log(error);
+      console.log(error,'get user service');
       logger.error("Error in getUser:", {
         message: error.message,
         stack: error.stack,
@@ -131,7 +131,7 @@ class UserServices {
       };
     } catch (error) {
       // Logging and throwing an error for failed address addition
-      console.log(error);
+      console.log(error,'add address service');
       logger.error("Error in addAddress:", {
         message: error.message,
         stack: error.stack,
