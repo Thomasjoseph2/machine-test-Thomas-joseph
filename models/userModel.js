@@ -20,6 +20,9 @@ const userSchema = mongoose.Schema(
       required: true,
       default: false,
     },
+    address:{
+      type:Object,
+    }
   },
   { timestamps: true }
 );
